@@ -54,10 +54,6 @@ const TodoList = () => {
     setTasks(newTasks)
   }
 
-  const show = () =>{
-      
-  }
-
   return (
     <div >
          <div className='flex space-x-1'>
