@@ -1,8 +1,9 @@
 type Donetype={
+    id:number;
     name:string;
 }
   
-  const Done = ({name }: Donetype) => {
+  const Done = ({id,name }: Donetype) => {
     return (
         <div
         className="flex justify-between h-8 items-center py-6 border-b"
